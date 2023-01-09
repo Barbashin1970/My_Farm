@@ -1,6 +1,6 @@
 package ru.myfarm;
 
-import ru.myfarm.details.AnimalFarm;
+import ru.myfarm.details.*;
 
 import java.util.List;
 public class Main {
@@ -11,11 +11,12 @@ public class Main {
                 "HORSE Речка",
                 "COW Зорька"
         ));
-      //  farmInit.addFarmAnimal(Animal.DOG);  // -- не работает метод добавления животных в ферму
+        //farmInit.addFarmAnimal(Animal.DOG);  // -- не работает метод добавления животных в ферму
 
         System.out.println("Наша ферма " + farmInit);                   // Выводим на печать нашу ферму
+        System.out.println(farmInit.toString());                    // проверяем как переопределяется вывод на печать
         System.out.println("Всего на ферме живут " + farmInit.countedAnimals());  // выводим на печать количество животных каждого типа
         System.out.println("Уникальные клички " + farmInit.uniqueNames());      // выводим на печать уникальные клички
-        System.out.println(farmInit.toString()); // не переопределяется вывод на печать
+
    }
 }
