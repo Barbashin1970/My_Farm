@@ -63,7 +63,7 @@ public class AnimalFarm {   // создали класс
          }
 
          public void addFarmAnimal (Animal animal){
-             farmAnimals.add(animal.name() + " N"); // по переданному виду животного. В этом случае имя животного равно N
+             farmAnimals.add(animal.name() + " John_Doe"); // по переданному виду животного. В этом случае имя животного равно N
          }
 
          public void addFarmAnimal (String name){

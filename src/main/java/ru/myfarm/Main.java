@@ -29,7 +29,7 @@ public class Main {
         farmInit.addFarmAnimal(Animal.HORSE, "Гнедой");
         farmInit.addFarmAnimal(Animal.COW, "Зорька");
         farmInit.addFarmAnimal("Чебурашка");
-        farmInit.addFarmAnimal("Гена Крокодил");
+        farmInit.addFarmAnimal("Гена_Крокодил");
 
         System.out.println("Наша ферма с новыми питомцами: ");                   // Выводим на печать
         System.out.println(farmInit.toString());                    // проверяем как переопределяется вывод на печать
